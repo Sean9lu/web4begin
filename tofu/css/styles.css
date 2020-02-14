@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Unbuntu';
+}
+
+.nav-bar{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(168, 159, 89, .3);
+    position: fixed;  
+    z-index: 1;
+}
+.logo{
+    height: 90px;
+    width: 80px;
+    margin: 15px 0px 0px 15px;
+}
+
+.nav-list{
+    float: right;
+    margin: 30px;
+    margin-top: 25px;
+}
+.list-item{ 
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    font:  rgba(168, 159, 89, .3);
+    border: 3px solid red;
+}
+    
+.list-item:hover {
+    background-color: white;
+    border: 3px dashed black;
+    border-radius: 50%;
+}
+
+/*************** end of Nav ********************/
+
+.hero-img{
+    background-image: url("../img/r25.jpg");
+    width: 100%;
+    height: 700px;
+    /* margin-top: 130px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.hero-text-box{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    text-align: cetner;
+    box-shadow: -3px -3px black;
+    
+}
+.hero-text{
+    font-family: 'unbutu';
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.sec-box{
+    border: 5px solid rgb(168, 159, 89);
+    width: 48%;
+    height: 420px;
+    float: left;
+    margin-left: 16px;
+    margin-top:50px;
+    
+    
+}
+.hero-text{
+    Float:right;
+}
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(168, 159, 89, .3);
+    clear: both;
+}
+.input, .social, .copy{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 35px;
+}
+.fab{
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color: #dd2a7b;
+}
+.fa-snapchat{
+    color:#fffc00;
+}
+
+/******** End of Index Styles*******/
+
+.container{
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.about-box{
+    height:700px;
+    width:30%;
+    border: 3px solid #000;
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.container-box{
+    display:block;
+    margin: auto;
+}
+.container-img{
+    width: 400px;
+    height: 400px;
+    /* display: block;
+    margin: auto;
+    margin-top: 25px; */
+}
+
+.container-audio{
+display: block;
+margin: auto;
+/* margin-top: 25px; */
+}
+
+.container-video{
+    margin-top: 25px;
+}
+
+.about-box p {
+    margin-top: 45px;
+}
+
+/*************** end of about page**********/
+
+
+.contact-container{
+    position: relative;
+    height: 1300px;
+    width: 606px;
+    
+}
+.contact-map, .contact-form{
+    position: relative;
+    top: 125px;
+    left: 69%;
+    margin-bottom: 100px;
+    border: 3px solid #000
+}

@@ -1,0 +1,97 @@
+.nav-bar{
+    height: 110px;
+    width: 100%;
+    background-color: black
+}
+
+.logo{
+    height: 90px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-list{
+    float: right;
+    margin: 30px;
+    margin-top: 25px
+}
+
+.list-item{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    padding-top: 10px;
+    text-align: center;
+    font: red;
+    border: 3px solid red;
+}
+
+.list-item:hover{
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 50%;
+
+}
+
+/************* end of nav***************/
+
+.hero-img{
+    height: 950px;
+    width: 100%;
+}
+
+/* .hero-text-box{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    box-shadow: -3px -3px black;
+} */
+
+.sec-box{
+    border: 5px solid white;
+    height: 420px;
+    width: 48%;
+    float: left;
+    margin-left: 16px;
+    margin-top: 50px;
+}
+
+.home-img{
+    height: 400px;
+    width: 48%;
+}
+
+.hero-text{
+    float: right;
+}
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(168, 159, 89, .3);
+    clear: both;
+}
+.input, .social, .copy{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 35px;
+}
+.fab{
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color: #dd2a7b;
+}
+.fa-snapchat{
+    color:#fffc00;
+}
